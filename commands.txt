@@ -1,0 +1,7 @@
+sudo aptitude install texlive-latex-recommended texlive-fonts-recommended texlive-latex-extra poppler-utils
+
+pdflatex jaynab-khatun.tex
+
+pdftoppm jaynab-khatun.pdf jaynab-khatun -png -r 300
+
+mv jaynab-khatun-1.png jaynab-khatun.png
